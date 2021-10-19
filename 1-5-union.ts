@@ -48,7 +48,7 @@
   // success -> 🎉 body
   // fail -> 😭 reason
   // 파라미터로 받아오는 것은 state이고 LoginState 타입이다.
-  function printLoginState(state: LoginState) {
+  function printLoginState2(state: LoginState) {
     // response라는 키가 state안에 있다면 접근 가능
     // 하지만 아래 방법보다 더 좋은 방법이 있음. discriminated union 사용
     if ('response' in state) {
