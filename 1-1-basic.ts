@@ -54,6 +54,6 @@
   // objet
   let obj: object; // 💩
   function acceptSomeObject(obj: object) {}
-  acceptSomeObject({ name: 'ellie' });
+  acceptSomeObject({ name: 'dadong' });
   acceptSomeObject({ animal: 'dog' });
 }

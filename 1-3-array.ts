@@ -8,6 +8,7 @@
 
   // Tuple -> interface, type alias, class
   // 고정된 사이즈의 서로 다른 타입이 있을 때 사용 가능
+  // 배열인데, 내부 데이터가 타입이 다른 경우 그것이 튜플임
   let student: [string, number];
   student = ['name', 123];
 
