@@ -35,12 +35,12 @@
     console.log(firstName);
     console.log(lastName); // undefined
   }
-  printName('Steve', 'Jobs');
-  printName('Ellie');
-  printName('Anna');
+  printName("Steve", "Jobs");
+  printName("Ellie");
+  printName("Anna");
 
   // Default parameter
-  function printMessage(message: string = 'default message') {
+  function printMessage(message: string = "default message") {
     console.log(message);
   }
   printMessage();

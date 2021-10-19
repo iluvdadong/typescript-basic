@@ -7,8 +7,8 @@
 
   // 지금부터 Text라는 타입은 문자열 string을 말합니다. 라는 뜻
   type Text = string;
-  const name: Text = 'ellie';
-  const address: Text = 'korea';
+  const name: Text = "ellie";
+  const address: Text = "korea";
 
   type Num = number;
 
@@ -22,22 +22,21 @@
   // Student 오브젝트에 name string, age number를 할당했기에,
   // 아래 오브젝트안에서도 그 타입을 따라야한다.
   const student: Student = {
-    name: 'ellie',
+    name: "ellie",
     age: 12,
   };
 
   /**
    * String Literal Types
    */
-  
+
   // 'name'만 할당할 수 있는 타입도 선언할 수 있다.
-  type Name = 'name';
+  type Name = "name";
   let ellieName: Name;
-  ellieName = 'name';
+  ellieName = "name";
 
-
-  type JSON = 'json';
-  const json: JSON = 'json';
+  type JSON = "json";
+  const json: JSON = "json";
 
   type Boal = true;
 }
